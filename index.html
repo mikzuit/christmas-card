@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta property="og:image" content="https://www.history.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cg_faces:center%2Cq_auto:good%2Cw_768/MTY5MDk1ODMyOTUwNTQ4MzYy/american-christmas-traditions-gettyimages-487756624.jpg">
+    <meta property="og:title" content="뀨">
+    <meta property="og:description" content="Miguel Ruiz Christmas">
+
+    <title>뀨</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Hi+Melody&family=Nanum+Pen+Script&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" type="image/jpg" href="/favicon.jpg" />
+    <script src="./snow.js"></script>
+    <style>
+        body {
+            background-color: rgb(201, 64, 64);
+            font-family: "Hi Melody";
+        }
+
+        .envelope {
+            width: 350px;
+            height: 350px;
+            background-image: url(https://icon.holidaypng.com/20191115/suj/rectangle-ribbon-gift-for-christmas-5dce1e675423b5.68144892.png);
+            background-size: auto;
+            background-position: center;
+            margin: 50px auto 0px auto;
+            background-repeat: no-repeat;
+            cursor: pointer;
+        }
+
+        .instruction {
+            text-align: center;
+        }
+
+        .letter-close {
+            display: block;
+        }
+
+        .rtan {
+            width: 200px;
+            height: 200px;
+            background-color: mistyrose;
+            background-image: url(https://media-exp1.licdn.com/dms/image/C4E03AQFHoIuDnH0-4A/profile-displayphoto-shrink_200_200/0/1634292100581?e=1645660800&v=beta&t=IzG-ZchI7IkXapggTkC_eD0bhJ3eNW2sVa1PQ6bgxJc);
+            background-size: cover;
+            background-position: center;
+            margin: 100px auto 40px auto;
+            border-radius: 100px;
+            border: 5px solid white;
+            box-shadow: 0px 0px 10px 5px white;
+        }
+
+        .xmas_message {
+            color: rgb(248, 248, 78);
+            text-align: center;
+        }
+
+        .message_box {
+            width: 350px;
+            height: auto;
+            background-color: rgb(250, 250, 185);
+            margin: auto;
+            border-radius: 2px;
+            box-shadow: 0px 0px 5px 0px white;
+            color: saddlebrown;
+            text-align: center;
+            font-size: 22px;
+            padding: 30px;
+            line-height: 30px;
+        }
+
+        .from {
+            text-align: right;
+            font-size: 17px;
+            margin-bottom: 0px;
+        }
+
+        .letter-open {
+            display: none;
+        }
+
+        @media screen and (max-width: 760px) {
+            .message_box {
+                margin-top: 50px;
+                width: 230px;
+                padding: 20px;
+                font-size: 18px;
+            }
+
+            .rtan {
+                width: 150px;
+                height: 150px;
+            }
+
+            .envelope {
+                width: 400px;
+                height: 400px;
+                margin: 150px auto 0px auto;
+            }
+            .instruction{
+                font-size: 20px;
+            }
+        }
+    </style>
+
+    <script>
+        function open_letter(){
+            document.getElementsByClassName("letter-close")[0].style.display = 'none'
+            document.getElementsByClassName("letter-open")[0].style.display = 'block'
+        }
+        function go_rtan(){
+            alert("Feliz Navidad!");
+            // window.location.href()
+        }
+    </script>
+</head>
+
+<body>
+    <div class="letter-close">
+        <div class="envelope" onclick="open_letter()"></div>
+        <h2 class="instruction">Abre este sobre</h2>
+    </div>
+    <div class="letter-open">
+        <div class="rtan" onclick="go_rtan()"></div>
+        <h1 class="xmas_message">Merry Christmas!!</h1>
+        <div class="message_box">
+            Feliz Navidad :)!!<br />
+            Que todos tus deseos se hagan realidad<br />
+            <p class="from">2021 miguel ruiz</p>
+        </div>
+        <br />
+        <h2 class="xmas_message">Aqui unas de las idioteces que se ma ha ocurrido durante el aburrimiento de la pandemia!</h2>
+        <div class="message_box">
+                Que fuerte cuando alguien soplaba las velas y tu podias comer la tarta. Que tiempos aquellos<br />
+        </div>
+        <br />
+        <div class="message_box">
+            Si me envias una solicitud de amistad en facebook y tu imagen de perfil es un coche ... asumire que eres un Transformer<br />
+        </div>
+        <br />
+        <div class="message_box">
+            Mi status en Facebook es "No estoy mas alli porque quiero tener vida privada"<br />
+        </div>
+        <br />
+        <div class="message_box">
+            Tus planes para estas navidaded son pasar con tu familia. La omicron se frota las manos en una esquina"<br />
+        </div>
+        <br />
+        <div class="message_box">
+            He enviado un email a diosito pidiendole que el 2022 sea un año bueno. Me ha respondido con: "¿pero es que aún estais vivos?"<br />
+        </div>
+        <br />
+        <div class="message_box">
+            La buena noticia en Perú es que la gente no se tiene que preocupar por la nueva variante del Covid ... tiene que preocuparse mas por su nuevo gobierno<br />
+        </div>
+        <br />
+        <div class="message_box">
+            A veces me pregunto si esta pandemia es porque no reenvie ese correo a las 20 personas que me pedía<br />
+        </div>
+        <br />
+        <div class="message_box">
+            Se acuerdan cuando nos decian "No te rindas con tus sueños" ... asi que yo me voy a dormir<br />
+        </div>
+        <br />
+        <div class="message_box">
+            Si no crees eso de que la gente ultimamente son prosioneros de tus telefonos ...en ingles se llaman "cell phones" cell = celda en ingles.<br />
+        </div>
+        <p class="from">Feliz 2022! from miguel ruiz</p>
+    </div>
+
+</body>
+
+</html>
